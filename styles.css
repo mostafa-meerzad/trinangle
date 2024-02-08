@@ -1,0 +1,25 @@
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100svh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #242424;
+}
+
+.main {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  border: 1px solid white;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  border: 1px solid tomato;
+}
